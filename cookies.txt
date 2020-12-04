@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.vkontakte.ru	TRUE	/	FALSE	1999999999	remixir	DELETED
+.vk.link	TRUE	/	FALSE	1999999999	remixstid	1018497685_BED3Yvs0czLTfnIxqZEA9KRc3taxLTz6w3T9tnVXcCw
+
