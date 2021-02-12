@@ -1,8 +1,79 @@
 body {
     margin: 0;
-    font-family: sans-serif;
+    display: grid;
+    grid-template-areas: "header" "content" "footer";
 }
 
-.title {
-    font-family: sans-serif;
+body a {
+    color: #3399FF;
+}
+
+body a:hover {
+    color: yellowgreen;
+}
+
+.thin {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.light {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.regular {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.medium {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.black {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.header {
+    margin: 100px 0 30px;
+    padding: 0 30% 0;
+}
+
+.main_block {
+    padding: 0 30%;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.work a {
+    display: inline-block;
+}
+
+.work img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.work {
+    text-align: center;
+}
+
+.preview {
+    margin: 30 0;
+    display: flex;
+}
+
+h2 {
+    margin: 30 0;
 }
