@@ -1,16 +1,37 @@
 <head>
     <title>Визитка</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="description" content="Сайт-визитка разработчика Shandy" />
+    <meta name="description" content="Сайт-визитка Владимира Аршинова" />
     <meta name="keywords" content="Shandy, Владимир Аршинов, Shandeika, shandy, shandeika" />
     <meta name="author" content="Владимир Аршинов" />
     <meta name="publisher-email" content="mail@shandy-dev.ru" />
     <meta name="robots" content="index, follow" />
+    <meta name="copyright" content="Copyright © 2019–2021 Shandy developer agency All Rights Reserved. © 2021" />
     <style>
         @import url(/css/main.css);
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
     </style>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/57c9d0b54a.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Страшилка favicon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--Конец страшилки-->
 </head>
 
 <body>
@@ -22,13 +43,13 @@
         <div class="about_me">
             <p class="light">Меня зовут Владимир, хочу работать программистом</p>
             <p class="light">В настоящий момент учусь на 1 курсе и пишу ботов для discord</p>
-            <p class="light">Есть небольшой опыт в создании сайтов: свой собственны и сайт команды</p>
+            <p class="light">Есть небольшой опыт в создании сайтов</p>
             <p class="light">Хочу попробовать себя в работе с командой</p>
         </div>
         <hr noshade color="#828282" width="100%">
         <div class="my_works">
             <h2 class="bold">Мои работы</h2>
-            <div class="preview">
+            <div class="works">
                 <div class="work">
                     <a href="https://github.com/Shandeika/christmas-tree-in-discord">
                         <img src="/img/christmas-tree.png">
@@ -47,21 +68,35 @@
                         <p class="bold">simple voice</p>
                     </a>
                 </div>
+                <div class="work" style="display: none;">
+                    <a href="https://shandy-dev.ru">
+                        <img src="/img/shandy-dev.png">
+                        <p class="bold">shandy-dev.ru</p>
+                    </a>
+                </div>
             </div>
         </div>
         <hr noshade color="#828282" width="100%">
-        <div class="contact_me">
-            <form autocomplete="on">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Ваша почта</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <div class="my_contacts">
+            <h2 class="bold">Мои контакты</h2>
+            <div class="contacts">
+                <div class="contact">
+                    <i class="fas fa-envelope"></i>
+                    <p class="light"><a href="mailto:shandy@shandy-dev.ru">shandy@shandy-dev.ru</a></p>
                 </div>
-                <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                    <label for="floatingTextarea2">Сообщение</label>
+                <div class="contact">
+                    <i class="fab fa-vk"></i>
+                    <p class="light"><a href="https://vk.com/shandeika">@shandeika</a></p>
                 </div>
-                <button type="button" class="btn btn-success">Отправить</button>
-            </form>
+                <div class="contact">
+                    <i class="fab fa-github"></i>
+                    <p class="light"><a href="https://github.com/Shandeika">@Shandeika</a></p>
+                </div>
+                <div class="contact">
+                    <i class="fab fa-telegram-plane"></i>
+                    <p class="light"><a href="https://t.me/shandeika">@Shandeika</a></p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
