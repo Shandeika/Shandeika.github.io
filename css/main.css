@@ -1,5 +1,9 @@
     body {
-        margin: 0;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 2fr 3fr 2fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: ". header ."". main .";
     }
     
     body a {
@@ -42,11 +46,11 @@
     }
     
     .header {
-        margin: 100px 30% 50px;
+        grid-area: header;
     }
     
     .main_block {
-        padding: 0 30%;
+        grid-area: main;
     }
     
     .work a {
@@ -63,9 +67,10 @@
     }
     
     .works {
-        margin: 30 0;
-        display: flex;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        justify-items: center;
     }
     
     h2 {
@@ -90,6 +95,10 @@
         justify-content: center;
     }
     
+    .my_contacts {
+        margin-bottom: 30px;
+    }
+    
     @media screen and (prefers-color-scheme: dark) {
         body {
             background-color: #232323;
@@ -112,6 +121,10 @@
     }
     
     @media screen and (max-width: 480px) {
+        body {
+            display: block;
+            margin-top: 0;
+        }
         .header {
             margin: 5px;
         }
